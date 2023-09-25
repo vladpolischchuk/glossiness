@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пекарня</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class="page-body">
+    <header class="header" data-header>
+        <div class="container header__container">
+
+            <a class="link logo" href="./index.html">
+                <img class="img logo__img" src="./img/logo.png" alt="Логотип сайту">
+            </a>
+
+            <a class="link header__contact" href="">(099) 999-99-99</a>
+
+            <nav class="nav header__nav">
+                <ul class="list nav__list">
+                    <li class="nav__item">
+                        <a class="link nav__link" href="">Про компанію</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="link nav__link" href="">Чому ми?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="link nav__link" href="">Робота в компанії</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="link nav__link" href="">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="btn header__btn" type="button">
+                Асортимент
+                <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                    <path d="M18.67 13.5L16.09 16.09L17.5 17.5L22.5 12.5L17.5 7.5L16.09 8.91L18.67 11.5H2.5V13.5H18.67Z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+
+                <h1 class="title hero__title">Пекарня <span class="desc">чудових ідей!</span></h1>
+                <p class="description">
+                    Найсвіжіша випічка власного виробництва на будь-який смак. 
+                    Також у нас можна замовити домашні вареники, пельмені, короваї, листове тісто і багато іншого.
+                </p>
+                <button class="btn" type="button">Хочу спробувати!</button>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container about-us__container">
+                <div class="wrapper-text">
+                    <h2 class="title about-us__title">Про нашу пекарню</h2>
+                    <p class="txt">
+                        Наша пекарня це мережа, яка завойовує серця любителів теплої оригінальної випічки.
+                    </p>
+                    <p class="txt">
+                        Ми готуємо кожен день, не залишаючи нічого на завтра. Все що ви бачите на прилавку - приготовленно вранці.
+                    </p>
+                    <p class="txt">
+                        Ми не економимо на продуктах і кадрах. Ми любимо своїх гостей. Ми знаємо що таке смачна випічка.
+                        Ми даруємо вас своє тепло кожен день.
+                    </p>
+                </div>
+                <div class="wrapper-img">
+                    <img src="./img/img1.jpg" alt="Наше печиво" width="760px" height="662px">
+                    <div class="block">
+                        <img src="./img/img2.jpg" alt="Наш хліб" width="444px" height="316px">
+                        <img src="./img/img3.jpg" alt="Наші круасани" width="444px" height="316px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="assortment">
+            <div class="container">
+                <h2 class="title assortment__title">Асортимент</h2>
+
+                <ul class="list assortment__list">
+                    <li class="assortment__item assortment__item--active">
+                        <a class="link assortment__link" href="">Весь асортимент</a>
+                    </li>
+                    <li class="assortment__item">
+                        <a class="link assortment__link" href="">Випічка</a>
+                    </li>
+                    <li class="assortment__item">
+                        <a class="link assortment__link" href="">Пельмені</a>
+                    </li>
+                    <li class="assortment__item">
+                        <a class="link assortment__link" href="">Вареники</a>
+                    </li>
+                    <li class="assortment__item">
+                        <a class="link assortment__link" href="">Тісто</a>
+                    </li>
+                </ul>
+
+                <ul class="list gallery">
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (2).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Вареники з картоплею</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (3).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Пельмені з яловичиною</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (4).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Пельмені зі свининою</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (5).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Печиво</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (6).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Круасан з малиновим джемом</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                    <item class="gallery__item">
+                        <img src="./img/Rectangle (7).jpg" alt="Асортимент">
+                        <h3 class="title title-item">Пончики</h3>
+                        <p class="price">40 грн/кг</p>
+                    </item>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

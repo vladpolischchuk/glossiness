@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 5;
+
+    transform: translateX(-50%);
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &.js-no-transparency {
+        width: 100%;
+        background-color: rgba(16, 18, 27, 0.4);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 10px rgba(25, 28, 38, 0.4);
+    }
+}
+
+.header__contact {
+    margin-left: 155px;
+
+    color: getColor('white');
+
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.25;
+
+    transition: $animation;
+
+    &:hover,
+    &:focus {
+        color: getColor('accent');
+    }
+}

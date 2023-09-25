@@ -1,0 +1,19 @@
+// Шрифти
+$main-font: 'Montserrat', sans-serif;
+
+// Кольори та функція їх визову
+$colors: (
+    // Текст
+    'primary': #2D3748,
+    'white': #FFFFFF,
+    'accent': #FFD324,
+    'gray': #FFFFFF,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
+
+// Анімація
+$animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$anim-slow: 600ms ease-in-out;
